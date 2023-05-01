@@ -1,17 +1,5 @@
 
-// Se creará una instancia de la clases “ProductManager”.
-// Se llamará “getProduct” recién creada la instancia, debe devolver un arreglo vacío[]
-// Se llamará al método “addProduct” con campos:
-//      Title: “producto prueba”
-//      descripción: “Este es un producto prueba” 
-//      price:200,
-//      thumbnail:”Sin imagen”
-//      code:”Abc123”,
-//      stock:25
-// El objeto debe agregarse satisfactoriamente con un id generado automáticamente SIN REPETIRSE
-// Se llamará el método “getProducts” nuevamente, esta vez debe aparecer el producto recién agregado 
-// Se llamará al método “addProduct” con los mismos campos de arriba, debe arrojar un error porque el codigo estara repetido
-// Se evaluará que getProductById devuelva error si no encuentra el producto o el producto en caso de encontrarlo
+// -------------------Primer desafio--------------------
 
 class ProductManager{
     constructor(){
